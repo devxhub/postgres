@@ -1,6 +1,6 @@
 # We target the PostgreSQL 18 Bookworm base.
 # Pinning to a sha256 digest allows Dependabot to track exact upstream releases.
-FROM postgres:18-bookworm@sha256:ab1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcd
+FROM postgres:18-bookworm@sha256:882236b897e39051d2368c5ccc6cda944904723506b2dfc97f2a8f5bc9afa382
 
 LABEL maintainer="Devxhub Limited" \
       description="PostgreSQL 18 LTS with PostGIS and pgvector"
