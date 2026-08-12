@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    # Auto-assign reviewers or labels to trigger downstream CI tests
+    labels:
+      - "dependencies"
+      - "docker"
